@@ -144,7 +144,10 @@ $backcolor: #f5fffa;
   align-items: center;
   &-content {
     width: 40%;
-    margin-left: 10%;
+    // margin-left: 10%;
+    & h2{
+      font-size: 30px;
+    }
     & p {
       font-size: 12px;
       margin-top: 10px;
@@ -430,7 +433,7 @@ $backcolor: #f5fffa;
     flex-direction: column;
     justify-content: center;
       &-botton1{
-        margin-top: 20px;
+        margin:20px auto;
         @include botton(
           $color: white,
           $background-color: #1e90ff,
@@ -439,9 +442,9 @@ $backcolor: #f5fffa;
         @include link;
       }
       &-botton2{
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 0;
+        // width: 100%;
+        margin:10px auto;
+        // margin-left: 0;
         @include botton(
           $color: white,
           $background-color: white,

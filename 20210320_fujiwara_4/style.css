@@ -95,7 +95,10 @@
 
 .main__section1-content {
   width: 40%;
-  margin-left: 10%;
+}
+
+.main__section1-content h2 {
+  font-size: 30px;
 }
 
 .main__section1-content p {
@@ -391,7 +394,7 @@
     justify-content: center;
   }
   .main__section5-content-botton-botton1 {
-    margin-top: 20px;
+    margin: 20px auto;
   }
   .main__section5-content-botton-botton1 p {
     display: inline-block;
@@ -406,9 +409,7 @@
     color: white;
   }
   .main__section5-content-botton-botton2 {
-    width: 100%;
-    margin-top: 20px;
-    margin-left: 0;
+    margin: 10px auto;
   }
   .main__section5-content-botton-botton2 p {
     display: inline-block;
